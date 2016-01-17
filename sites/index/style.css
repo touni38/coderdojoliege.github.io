@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
+h2 {
+  color: purple;
+}
+ul#menu {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  
+}
+
+ul#menu li {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background-color: silver;
+}
+
+ul#menu li:hover{
+  background-color: #666666;
+}
+
+ul#menu li a {
+  text-decoration: none;
+}
+
+li.bleu {
+  background-color: red;
+}
